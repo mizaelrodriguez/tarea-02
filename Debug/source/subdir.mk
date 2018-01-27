@@ -5,15 +5,18 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../source/Tarea-3.c \
-../source/semihost_hardfault.c 
+../source/semihost_hardfault.c \
+../source/varidic.c 
 
 OBJS += \
 ./source/Tarea-3.o \
-./source/semihost_hardfault.o 
+./source/semihost_hardfault.o \
+./source/varidic.o 
 
 C_DEPS += \
 ./source/Tarea-3.d \
-./source/semihost_hardfault.d 
+./source/semihost_hardfault.d \
+./source/varidic.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
