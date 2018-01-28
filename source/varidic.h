@@ -23,7 +23,10 @@ typedef short int sint16;
 typedef unsigned long int uint32;
 /*! This data type is 16-bit signed integer*/
 typedef long int sint32;
-
+/*! This data type is 16-bit signed integer*/
+typedef double int32;
+/*! This data type is 16-bit signed integer*/
+typedef int int16;
 
 /********************************************************************************************/
 /********************************************************************************************/
@@ -51,7 +54,7 @@ void infinit_variables (uint32_t  *Dates)
  	 \param[in]
  	 \return void
  */
-uint32 average(uint16 dates, ...);
+uint32 average(uint32 dates, ...);
 
 
 /********************************************************************************************/
