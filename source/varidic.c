@@ -5,9 +5,7 @@
  *      Author: Mizaael
  */
 
-/*
- * Descripcion de las funciones
- */
+
 #include <stdarg.h>
 #include <stdio.h>
 
